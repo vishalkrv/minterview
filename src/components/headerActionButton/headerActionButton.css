@@ -1,0 +1,18 @@
+.mail_actions {
+  height: 40px;
+  background: #92d0ff2e;
+  display: flex;
+  align-items: center;
+}
+
+.mail_action_btn {
+  margin-left: 25px;
+  cursor: pointer;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+}
+
+.mail_action_btn .box_icon {
+  color: var(--messageCountColor);
+}

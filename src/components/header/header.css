@@ -1,0 +1,29 @@
+.mail_header {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  flex-grow: 1;
+  background-color: var(--headerBackground);
+  height: 50px;
+}
+
+.mail_header_app_launcher {
+  width: 60px;
+  height: 100%;
+  display: inline-block;
+}
+
+.mail_header_app_launcher button {
+  width: 100%;
+  height: 100%;
+  background-color: var(--appLauncherBackround);
+  color: #fff;
+}
+.mail_header_logo {
+  display: flex;
+  flex-wrap: nowrap;
+  padding: 0 25px;
+  align-items: center;
+  flex-grow: 1;
+  color: var(--logoColor);
+}

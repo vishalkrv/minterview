@@ -1,0 +1,60 @@
+.mail_list_header {
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+  padding: 0 20px;
+  margin-top: 20px;
+}
+
+.mail_list_header_tabs {
+  display: flex;
+  flex: 1;
+  font-size: 1.3em;
+}
+
+.mail_list_header_tab {
+  margin: 0px 10px;
+  cursor: pointer;
+}
+
+.tab_selected {
+  color: var(--messageCountColor);
+}
+
+.tab_selected span {
+  border-bottom: 3px solid;
+}
+
+.mail_list_header_actionBtn {
+  color: var(--messageCountColor);
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  position: relative;
+  user-select: none;
+}
+
+.mail_list_header_actionBtn_dropdown {
+  position: absolute;
+  background: #fff;
+  display: none;
+  flex-direction: column;
+  top: 27px;
+  width: 175px;
+  right: 0;
+  z-index: 2;
+  font-size: 18px;
+  border: 0.5px solid var(--borderColor);
+  box-shadow: 2px 4px 8px 0px rgba(0, 0, 0, 0.46);
+}
+
+.mail_list_header_actionBtn_dropdown span {
+  padding: 10px 24px;
+  display: block;
+  color: #000;
+  cursor: pointer;
+}
+
+.mail_list_header_actionBtn_dropdown span:hover{
+  background: var(--navHover);
+}
